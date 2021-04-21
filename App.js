@@ -16,7 +16,7 @@ const DisplayAnImage = () => {
     <View style={styles.container}>
       <Image
         style={styles.profile}
-        source={require('@expo/snack-static/react-native-logo.png')}
+        source={require('')}
       />
 
 
@@ -29,5 +29,5 @@ const styles = StyleSheet.create({
     profile: {
       width: 50,
       height: 50,
-  },
-}:}
+    },
+    }):
