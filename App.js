@@ -19,6 +19,7 @@ const DisplayAnImage = () => {
         source={require('@expo/snack-static/react-native-logo.png')}
       />
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -29,4 +30,4 @@ const styles = StyleSheet.create({
       width: 50,
       height: 50,
   },
-});
+}:}
