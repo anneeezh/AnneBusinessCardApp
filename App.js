@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#add8e6',
     alignItems: 'center',
     justifyContent: 'center',
+  },
     profile: {
-      width: 50,
-      height: 50,
-    },
-    }):
+      width: 1000,
+      height: 1600,
+  }):
