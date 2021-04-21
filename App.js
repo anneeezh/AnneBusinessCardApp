@@ -16,7 +16,7 @@ const DisplayAnImage = () => {
     <View style={styles.container}>
       <Image
         style={styles.profile}
-        source={require('')}
+    source={require('')}
       />
 
 
