@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#add8e6',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily:"Cochin"
+    fontFamily:"TimesNewRomans"
   },
   profile:{
     width:165,
