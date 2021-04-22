@@ -11,7 +11,7 @@ export default function App() {
       />
       <Text style={styles.name}>Anne Zheng</Text>
       <Text style={styles.email}>sdzhaj@gmail.com</Text>
-      <Button 
+      <Button style={styles.button}
         title="Personal Website"
         color="#8fbc8f"
         onPress={() => {
@@ -31,26 +31,34 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: "space-between",
     backgroundColor: '#add8e6',
     alignItems: 'center',
     alignContent:'center',
     justifyContent: 'center',
     fontFamily:"Georgia",
-    padding: 20
+    padding: 20,
+    marginVertical: 8,
+    marginHorizontal: 16,
+    margin: 10,
   },
   profile:{
     width:165,
     height: 125,
     alignContent:'center',
-    resizeMode: 'stretch',
+    resizeMode: "stretch",
   },
   name:{
-    fontSize: 30,
-    fontWeight: "bold"
+    fontSize: 32,
+    fontWeight: "900"
+    
   },
   email:{
     fontSize: 15,
     fontWeight: "400"
+  },
+  button:{
+    lineHeight:10
   },
   question:{
     fontSize:20,
@@ -60,6 +68,5 @@ const styles = StyleSheet.create({
   answer:{
     fontSize:18,
     fontWeight:"500",
-    alignContent:'center'
   }
 })  
