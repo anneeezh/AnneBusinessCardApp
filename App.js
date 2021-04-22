@@ -33,8 +33,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#add8e6',
     alignItems: 'center',
+    alignContent:'center',
     justifyContent: 'center',
-    fontFamily:"Georgia"
+    fontFamily:"Georgia",
+    padding: 20
   },
   profile:{
     width:165,
@@ -52,8 +54,8 @@ const styles = StyleSheet.create({
   },
   question:{
     fontSize:20,
-    fontWeight:"600",
-    alignContent:'center'
+    fontWeight:"bold",
+    textAlign:'center'
   },
   answer:{
     fontSize:18,
