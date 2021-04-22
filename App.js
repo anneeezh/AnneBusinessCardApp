@@ -79,6 +79,6 @@ const styles = StyleSheet.create({
     alignItems:'stretch'
   },
   prompt:{
-    color:'#FFF'
+    backgroundColor:'#FFF'
   }
 })  
