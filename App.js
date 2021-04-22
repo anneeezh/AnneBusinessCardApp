@@ -21,8 +21,8 @@ export default function App() {
               alert('Failed to open page')
           })}}
       />
-      <Text>Why did you want to learn mobile app development?</Text>
-      <Text>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
+      <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
+      <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#add8e6',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily:"TimesNewRomans"
+    fontFamily:"Georgia"
   },
   profile:{
     width:165,
@@ -43,11 +43,14 @@ const styles = StyleSheet.create({
     resizeMode: 'stretch',
   },
   name:{
-    fontSize: 20,
+    fontSize: 30,
     fontWeight: "bold"
   },
   email:{
     fontSize: 20,
-    fontWeight: "bold"
+    fontWeight: "400"
+  },
+  question:{
+    fontSize:15
   }
 })  
