@@ -35,11 +35,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#add8e6',
     alignItems: 'center',
     alignContent:'center',
-    justifyContent: 'center',
+    justifyContent:'space-between',
     fontFamily:"Georgia",
     padding: 20,
-    marginVertical: 8,
-    marginHorizontal: 16,
     margin: 10,
   },
   profile:{
@@ -50,15 +48,14 @@ const styles = StyleSheet.create({
   },
   name:{
     fontSize: 32,
-    fontWeight: "900"
-    
+    fontWeight: "900",
   },
   email:{
     fontSize: 15,
-    fontWeight: "400"
+    fontWeight: "400",
   },
   button:{
-    lineHeight:10
+    lineHeight:10,
   },
   question:{
     fontSize:20,
@@ -68,5 +65,6 @@ const styles = StyleSheet.create({
   answer:{
     fontSize:18,
     fontWeight:"500",
+    textAlign:'center'
   }
 })  
