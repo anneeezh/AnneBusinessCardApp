@@ -11,8 +11,6 @@ export default function App() {
       />
       <Text>Anne Zheng</Text>
       <Text>sdzhaj@gmail.com</Text>
-      <StatusBar style="auto" />
-      <View>
       <Button 
         title="Personal Website"
         color="#8fbc8f"
@@ -23,7 +21,7 @@ export default function App() {
               alert('Failed to open page')
           })}}
       />
-      </View>
+      <StatusBar style="auto" />
     </View>
   );
 }
