@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Button, Image, Linking,TouchableOpacity, ScrollView } from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function App() {
   return (
@@ -62,7 +63,8 @@ const styles = StyleSheet.create({
     fontWeight: "400",
   },
   button:{
-    lineHeight:10,
+    fontSize:20
+    
   },
   question:{
     fontSize:20,
@@ -76,4 +78,7 @@ const styles = StyleSheet.create({
     textAlign:'center',
     alignItems:'stretch'
   },
+  prompt:{
+    color:'#FFF'
+  }
 })  
