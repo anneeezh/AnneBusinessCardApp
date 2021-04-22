@@ -30,8 +30,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   profile:{
-    width:200,
-    height: 350,
+    width:300,
+    height: 300,
     alignContent:'center',
+    resizeMode: 'stretch',
   }
 })  
