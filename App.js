@@ -31,11 +31,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "space-between",
     backgroundColor: '#add8e6',
-    alignItems: 'center',
+    alignItems:'center',
     alignContent:'center',
-    justifyContent:'space-between',
+    justifyContent:'center',
     fontFamily:"Georgia",
     padding: 20,
     margin: 10,
@@ -60,11 +59,13 @@ const styles = StyleSheet.create({
   question:{
     fontSize:20,
     fontWeight:"bold",
-    textAlign:'center'
+    textAlign:'center',
+    alignItems:'stretch'
   },
   answer:{
     fontSize:18,
     fontWeight:"500",
-    textAlign:'center'
-  }
+    textAlign:'center',
+    alignItems:'stretch'
+  },
 })  
