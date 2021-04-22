@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
   question:{
     fontSize:20,
     fontWeight:"600"
+    
   },
   answer:{
     fontSize:18,
