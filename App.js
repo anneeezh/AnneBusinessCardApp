@@ -47,10 +47,15 @@ const styles = StyleSheet.create({
     fontWeight: "bold"
   },
   email:{
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: "400"
   },
   question:{
-    fontSize:15
+    fontSize:20,
+    fontWeight:"600"
+  },
+  answer:{
+    fontSize:18,
+    fontWeight:"500"
   }
 })  
