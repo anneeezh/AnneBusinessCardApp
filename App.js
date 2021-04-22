@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button, Image, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View, Button, Image, Linking } from 'react-native';
 
 export default function App() {
   return (
@@ -9,20 +9,21 @@ export default function App() {
         style={styles.profile}
         source={{uri:'https://user-images.githubusercontent.com/78512537/107577246-0d31a580-6ba7-11eb-800f-a7758b6bdf6f.jpg'}}
       />
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Anne Zheng</Text>
+      <Text>sdzhaj@gmail.com</Text>
       <StatusBar style="auto" />
       <View>
-      <Button
+      <Button 
         title="Personal Website"
-        color="8fbc8f"
-        onPress={() => Alert.alert('Button with adjusted color pressedm')}
-       />
+        color="#8fbc8f"
+        onPress={() => {
+          Linking.openURL('https://anneeezh.weebly.com/')
+          .catch(err => {
+              console.error("Failed opening page because: ", err)
+              alert('Failed to open page')
+          })}}
+      />
       </View>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={onPress}>
-        <Text>Press Here</Text>
-      </TouchableOpacity>
     </View>
   );
 }
@@ -40,9 +41,4 @@ const styles = StyleSheet.create({
     alignContent:'center',
     resizeMode: 'stretch',
   },
-  button:{
-    alignItems: "center",
-    backgroundColor: "#DDDDDD",
-    padding: 10
-  }
 })  
