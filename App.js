@@ -31,6 +31,6 @@ const styles = StyleSheet.create({
   profile:{
     width:200,
     height: 350,
-    alignItems:'center',
+    alignContent:'center',
   }
 })  
