@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Button, Image } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
@@ -18,6 +18,11 @@ export default function App() {
         onPress={() => Alert.alert('Button with adjusted color pressedm')}
        />
       </View>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={onPress}>
+        <Text>Press Here</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -34,5 +39,10 @@ const styles = StyleSheet.create({
     height: 125,
     alignContent:'center',
     resizeMode: 'stretch',
+  },
+  button:{
+    alignItems: "center",
+    backgroundColor: "#DDDDDD",
+    padding: 10
   }
 })  
