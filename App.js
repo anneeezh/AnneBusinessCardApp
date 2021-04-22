@@ -27,6 +27,7 @@ const ViewBoxesWithColorAndText = () => {
   );
 };
 
+export default ViewBoxesWithColorAndText;
 
 const styles = StyleSheet.create({
   container: {
