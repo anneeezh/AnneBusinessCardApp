@@ -52,11 +52,12 @@ const styles = StyleSheet.create({
   },
   question:{
     fontSize:20,
-    fontWeight:"600"
-    
+    fontWeight:"600",
+    alignContent:'center'
   },
   answer:{
     fontSize:18,
-    fontWeight:"500"
+    fontWeight:"500",
+    alignContent:'center'
   }
 })  
