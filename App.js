@@ -16,7 +16,7 @@ export default function App() {
         style={styles.button}
         onPress={ () => {Linking.openURL('https://anneeezh.weebly.com/')}
         }>
-        <Text style={styles.button}>Check out my websites</Text>
+        <Text style={styles.buttonText}>Check out my websites</Text>
       </TouchableOpacity>
       <Button style={styles.button}
         title="Personal Website"
@@ -65,6 +65,9 @@ const styles = StyleSheet.create({
   button:{
     fontSize:20
     
+  },
+  bottonText:{
+    fontSize:20
   },
   question:{
     fontSize:20,
