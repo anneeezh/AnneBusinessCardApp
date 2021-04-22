@@ -8,6 +8,7 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
       <View>
+      <separator />
       <Button
         title="Personal Website"
         color="8fbc8f"
@@ -27,5 +28,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  });
-  
+  separator: {
+    marginVertical: 8,
+    borderBottomColor: '#737373',
+    borderBottomWidth: StyleSheet.hairlineWidth,
+  },
+})  
