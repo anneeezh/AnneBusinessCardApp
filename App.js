@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Button, Image, Linking } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, Linking,TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
@@ -11,6 +11,11 @@ export default function App() {
       />
       <Text style={styles.name}>Anne Zheng</Text>
       <Text style={styles.email}>sdzhaj@gmail.com</Text>
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={ () => {Linking.openURL('https://anneeezh.weebly.com/')}
+
+  }>
       <Button style={styles.button}
         title="Personal Website"
         color="#8fbc8f"
