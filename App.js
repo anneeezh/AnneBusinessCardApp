@@ -7,8 +7,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <Button
-        title="Press me"
-        onPress={() => Alert.alert('Simple Button pressed')}
+        title="Personal Website"
+        color="#8fbc8f"
+        onPress={() => Alert.alert('Button with adjusted color pressed')}
       />
       <StatusBar style="auto" />
     </View>
