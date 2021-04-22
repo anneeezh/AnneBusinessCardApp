@@ -6,7 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Image
-        source={uri('https://user-images.githubusercontent.com/78512537/107577246-0d31a580-6ba7-11eb-800f-a7758b6bdf6f.jpg')}
+        style={styles.profile}
+        source={{uri:'https://user-images.githubusercontent.com/78512537/107577246-0d31a580-6ba7-11eb-800f-a7758b6bdf6f.jpg'}}
       />
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
