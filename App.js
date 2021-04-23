@@ -12,12 +12,6 @@ export default function App() {
       />
       <Text style={styles.name}>Anne Zheng</Text>
       <Text style={styles.email}>sdzhaj@gmail.com</Text>
-      <TouchableOpacity 
-        style={styles.button}
-        onPress={ () => {Linking.openURL('https://anneeezh.weebly.com/')}
-        }>
-        <Text style={styles.buttonText}>Check out my website</Text>
-      </TouchableOpacity>
       <Button style={styles.button}
         title="Personal Website"
         color="#8fbc8f"
@@ -28,6 +22,12 @@ export default function App() {
               alert('Failed to open page')
           })}}
       />
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={ () => {Linking.openURL('https://www.eachoneteachone.is/anne-zheng.html')}
+        }>
+        <Text style={styles.buttonText}>Check out my E1T1 website</Text>
+      </TouchableOpacity>
       <ScrollView style={styles.prompt}>
         <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
         <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
