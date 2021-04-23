@@ -83,6 +83,6 @@ const styles = StyleSheet.create({
   prompt:{
     backgroundColor:'#FFF',
     padding:10,
-    margin:10,
+    border:10,
   }
 })  
