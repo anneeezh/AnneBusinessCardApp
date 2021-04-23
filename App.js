@@ -71,7 +71,9 @@ const styles = StyleSheet.create({
     fontSize:20,
     fontWeight:"bold",
     textAlign:'center',
-    alignItems:'stretch'
+    alignItems:'stretch',
+    marginBottom:10,
+    margin:10
   },
   answer:{
     fontSize:18,
@@ -80,7 +82,7 @@ const styles = StyleSheet.create({
     alignItems:'stretch'
   },
   prompt:{
-    width:350,
+    width:335,
     backgroundColor:'#FFF',
   }
 })  
