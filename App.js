@@ -26,7 +26,7 @@ export default function App() {
         style={styles.button}
         onPress={ () => {Linking.openURL('https://www.eachoneteachone.is/anne-zheng.html')}
         }>
-        <Text style={styles.buttonText}>Check out my E1T1 website</Text>
+        <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
       </TouchableOpacity>
       <ScrollView style={styles.prompt}>
         <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
