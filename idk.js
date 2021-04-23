@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Button, Image, Linking } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, Linking,TouchableOpacity, ScrollView } from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function App() {
   return (
@@ -11,6 +12,12 @@ export default function App() {
       />
       <Text style={styles.name}>Anne Zheng</Text>
       <Text style={styles.email}>sdzhaj@gmail.com</Text>
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={ () => {Linking.openURL('https://anneeezh.weebly.com/')}
+        }>
+        <Text style={styles.buttonText}>Check out my website</Text>
+      </TouchableOpacity>
       <Button style={styles.button}
         title="Personal Website"
         color="#8fbc8f"
@@ -21,8 +28,10 @@ export default function App() {
               alert('Failed to open page')
           })}}
       />
-      <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
-      <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
+      <ScrollView style={styles.prompt}>
+        <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
+        <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
+      </ScrollView>
       <StatusBar style="auto" />
     </View>
   );
@@ -36,8 +45,7 @@ const styles = StyleSheet.create({
     alignContent:'center',
     justifyContent:'center',
     fontFamily:"Georgia",
-    padding: 20,
-    margin: 10,
+    padding:15,
   },
   profile:{
     width:165,
@@ -52,20 +60,31 @@ const styles = StyleSheet.create({
   email:{
     fontSize: 15,
     fontWeight: "400",
+    marginBottom:5
   },
   button:{
-    lineHeight:10,
+    padding:6,
+  },
+  bottonText:{
+    fontSize:20
   },
   question:{
     fontSize:20,
     fontWeight:"bold",
     textAlign:'center',
-    alignItems:'stretch'
+    alignItems:'stretch',
+    marginBottom:10,
+    margin:10
   },
   answer:{
     fontSize:18,
     fontWeight:"500",
     textAlign:'center',
-    alignItems:'stretch'
+    alignItems:'stretch',
+    margin:10
   },
+  prompt:{
+    width:335,
+    backgroundColor:'#FFF',
+  }
 })  
