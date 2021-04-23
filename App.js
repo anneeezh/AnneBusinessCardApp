@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
     alignItems:'stretch'
   },
   prompt:{
-    backgroundColor:'#FFF'
+    backgroundColor:'#FFF',
+    padding:10,
   }
 })  
