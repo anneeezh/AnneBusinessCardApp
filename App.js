@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     alignContent:'center',
     justifyContent:'center',
     fontFamily:"Georgia",
-    padding:20,
+    padding:15,
   },
   profile:{
     width:165,
