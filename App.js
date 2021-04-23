@@ -45,8 +45,7 @@ const styles = StyleSheet.create({
     alignContent:'center',
     justifyContent:'center',
     fontFamily:"Georgia",
-    padding: 20,
-    margin: 10,
+    padding:30,
   },
   profile:{
     width:165,
@@ -82,7 +81,6 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:300,
-    height:300,
     backgroundColor:'#FFF',
     padding:10,
   }
