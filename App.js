@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
   email:{
     fontSize: 15,
     fontWeight: "400",
+    marginBottom:5
   },
   button:{
     padding:6,
@@ -79,7 +80,8 @@ const styles = StyleSheet.create({
     fontSize:18,
     fontWeight:"500",
     textAlign:'center',
-    alignItems:'stretch'
+    alignItems:'stretch',
+    margin:10
   },
   prompt:{
     width:335,
