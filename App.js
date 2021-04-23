@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#add8e6',
     alignItems:'center',
     alignContent:'center',
-    justifyContent:'center',
+    justifyContent:'space-evenly',
     fontFamily:"Georgia",
     padding:15,
   },
