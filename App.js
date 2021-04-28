@@ -29,10 +29,10 @@ export default function App() {
         <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
       </TouchableOpacity>
       <View style={styles.prompt}>
-      <ScrollView>
-        <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
-        <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
-      </ScrollView>
+        <ScrollView>
+          <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
+          <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
+        </ScrollView>
       </View>
       <StatusBar style="auto" />
     </View>
@@ -63,15 +63,14 @@ const styles = StyleSheet.create({
   email:{
     fontSize: 15,
     fontWeight: "400",
-    marginBottom:15
+    marginBottom:10
   },
   button:{
     padding:6,
-    marginBottom:5
+    marginBottom:15
   },
   bottonText:{
     fontSize:20,
-    marginBottom:20
   },
   question:{
     fontSize:22,
