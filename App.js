@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:275,
-    height:300,
+    height:315,
     backgroundColor:'#FFF',
     marginTop:15
   }
