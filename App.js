@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Image
         style={styles.profile}
-        source={{uri:'https://user-images.githubusercontent.com/78512537/107577246-0d31a580-6ba7-11eb-800f-a7758b6bdf6f.jpg'}}
+        source={{uri:'https://user-images.githubusercontent.com/78512537/116446451-d2d1bf00-a80b-11eb-92f5-bf9bb9ea37d4.png'}}
       />
       <Text style={styles.name}>Anne Zheng</Text>
       <Text style={styles.email}>sdzhaj@gmail.com</Text>
