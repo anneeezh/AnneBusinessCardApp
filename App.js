@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
     height: 125,
     borderRadius: 125 / 2,
     alignContent:'center',
+    marginBottom:5
   },
   name:{
     fontSize: 32,
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
   email:{
     fontSize: 15,
     fontWeight: "400",
-    marginBottom:5
+    marginBottom:15
   },
   button:{
     padding:6,
@@ -70,7 +71,7 @@ const styles = StyleSheet.create({
   },
   bottonText:{
     fontSize:20,
-    marginBottom:5
+    marginBottom:20
   },
   question:{
     fontSize:22,
