@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     height: 125,
     alignContent:'center',
     resizeMode: "stretch",
-    borderRadius:0.5
+    borderRadius: '400'
   },
   name:{
     fontSize: 32,
