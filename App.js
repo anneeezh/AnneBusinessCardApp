@@ -22,12 +22,6 @@ export default function App() {
               alert('Failed to open page')
           })}}
       />
-      <TouchableOpacity 
-        style={styles.button}
-        onPress={ () => {Linking.openURL('https://www.eachoneteachone.is/anne-zheng.html')}
-        }>
-        <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
-      </TouchableOpacity>
       <View style={styles.prompt}>
         <ScrollView>
           <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
@@ -35,6 +29,12 @@ export default function App() {
         </ScrollView>
       </View>
       <StatusBar style="auto" />
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={ () => {Linking.openURL('https://www.eachoneteachone.is/anne-zheng.html')}
+        }>
+        <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
+      </TouchableOpacity>
     </View>
   );
 }
