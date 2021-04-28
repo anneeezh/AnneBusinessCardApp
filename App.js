@@ -33,7 +33,7 @@ export default function App() {
         style={styles.button}
         onPress={ () => {Linking.openURL('https://www.eachoneteachone.is/anne-zheng.html')}
         }>
-        <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
+        <Text style={styles.buttonText}>To Check Out My E1T1 Website Click Here</Text>
       </TouchableOpacity>
     </View>
   );
@@ -89,7 +89,8 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:275,
-    height:275,
+    height:300,
     backgroundColor:'#FFF',
+    marginTop:15
   }
 })  
