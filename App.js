@@ -66,9 +66,11 @@ const styles = StyleSheet.create({
   },
   button:{
     padding:6,
+    marginBottom:5
   },
   bottonText:{
-    fontSize:20
+    fontSize:20,
+    marginBottom:5
   },
   question:{
     fontSize:22,
