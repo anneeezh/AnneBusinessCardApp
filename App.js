@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:335,
-    height:350,
+    height:320,
     backgroundColor:'#FFF',
   }
 })  
