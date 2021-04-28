@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   },
   name:{
     fontSize: 32,
-    fontWeight: "900",
+    fontWeight: "bold",
   },
   email:{
     fontSize: 15,
