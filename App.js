@@ -50,9 +50,9 @@ const styles = StyleSheet.create({
     padding:15,
   },
   profile:{
-    width: 150,
-    height: 150,
-    borderRadius: 150 / 2,
+    width: 125,
+    height: 125,
+    borderRadius: 125 / 2,
     alignContent:'center',
   },
   name:{
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:275,
-    height:300,
+    height:275,
     backgroundColor:'#FFF',
   }
 })  
