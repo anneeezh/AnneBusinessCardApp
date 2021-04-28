@@ -28,10 +28,12 @@ export default function App() {
         }>
         <Text style={styles.buttonText}>You Can Also Check Out My E1T1 Website Here</Text>
       </TouchableOpacity>
-      <ScrollView style={styles.prompt}>
+      <View style={styles.prompt}>
+      <ScrollView>
         <Text style={styles.question}>Why did you want to learn mobile app development?</Text>
         <Text style={styles.answer}>I wanted to learn mobile app development because I am curious about the process of developing an app. This is the project that catches my eyes the most while we are choosing major projects. I've always always been curious about how our social apps, shopping apps, music apps were made, or developed.</Text>
       </ScrollView>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -48,9 +50,9 @@ const styles = StyleSheet.create({
     padding:15,
   },
   profile:{
-    width: 200,
-    height: 200,
-    borderRadius: 200 / 2,
+    width: 150,
+    height: 150,
+    borderRadius: 150 / 2,
     alignContent:'center',
   },
   name:{
@@ -85,7 +87,7 @@ const styles = StyleSheet.create({
   },
   prompt:{
     width:335,
-    height: 400,
+    height:350,
     backgroundColor:'#FFF',
   }
 })  
