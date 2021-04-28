@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     fontSize:20
   },
   question:{
-    fontSize:20,
+    fontSize:22,
     fontWeight:"bold",
     textAlign:'center',
     alignItems:'stretch',
@@ -79,15 +79,15 @@ const styles = StyleSheet.create({
     margin:10
   },
   answer:{
-    fontSize:18,
+    fontSize:20,
     fontWeight:"500",
     textAlign:'center',
     alignItems:'stretch',
     margin:10
   },
   prompt:{
-    width:335,
-    height:320,
+    width:275,
+    height:300,
     backgroundColor:'#FFF',
   }
 })  
